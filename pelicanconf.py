@@ -31,6 +31,7 @@ LINKS = (
 # Social widget
 SOCIAL = (
         ('YouTube', 'https://www.youtube.com/@Mycoporium'),
+        ('Github', 'https://github.com/mycoporium'),
         )
 
 DEFAULT_PAGINATION = 25
