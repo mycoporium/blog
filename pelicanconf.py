@@ -29,8 +29,9 @@ LINKS = (
         )
 
 # Social widget
-#SOCIAL = (('You can add links in your config file', '#'),
-#          ('Another social link', '#'),)
+SOCIAL = (
+        ('YouTube', 'https://www.youtube.com/@Mycoporium'),
+        )
 
 DEFAULT_PAGINATION = 25
 
