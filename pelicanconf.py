@@ -25,7 +25,7 @@ LINKS = (
         ('FreshCap', 'https://freshcap.com'),
         ('AdaFruit', 'https://www.adafruit.com/'),
         ('McMaster-Carr', 'https://www.mcmaster.com'),
-        ('Grainer', 'https://www.grainger.com/'),
+        ('Grainger', 'https://www.grainger.com/'),
         )
 
 # Social widget
