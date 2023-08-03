@@ -1,6 +1,6 @@
 Title: Enclosure Automation
 Date: 2023-08-02 00:08
-Category: Electronics
+Category: Builds
 Status: published
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3hF7DTLjd74?si=WqrCpDwXjJIwXo0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

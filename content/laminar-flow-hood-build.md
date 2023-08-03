@@ -1,6 +1,6 @@
 Title: Laminar Flow Hood Build
 Date: 2023-07-26 21:40
-Category: How-To
+Category: Builds
 Summary: Mistakes made while building a laminar flow hood for mushroom cultivation.
 Author: Aaron Eyer
 Status: published
