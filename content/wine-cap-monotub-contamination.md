@@ -7,6 +7,8 @@ Status: published
 
 ### Contaminant: Trichoderma
 
+### Vector: Compromised substrate packaging
+
 This is a picture of a contaminated [Boomr Bag](https://northspore.com/collections/sterile-substrates/products/boomr-bag-manure-based-sterile-substrate-5lb). Notice the break in the plastic along the seal. I am fairly sure I did this by tossing the box onto the floor when they arrived. 
 
 ![Contaminated Boomr Bag]({attach}images/boomr_bag_contam.jpg)
