@@ -32,6 +32,7 @@ LINKS = (
 SOCIAL = (
         ('YouTube', 'https://www.youtube.com/@Mycoporium'),
         ('Github', 'https://github.com/mycoporium'),
+        ('Mastodon', '@mycoporium@mastodon.social'),
         )
 
 DEFAULT_PAGINATION = 25
