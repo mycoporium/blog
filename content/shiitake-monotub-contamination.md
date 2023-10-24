@@ -3,9 +3,15 @@ Date: 2023-08-06 15:23
 Category: Contams
 Status: published
 
-*Preface:* I later found out that shiitake are not generally grown in monotubs, and they prefer sawdust over Wood Lovr substrate. According to the [North Spore substrate compatibility guide](https://northspore.com/pages/mushroom-substrate-compatibility-guide), monotubs + wood lovr are not even experimental. So we'll see how this goes, fingers crossed, but not expecting much.
+### NOTE: Likely *not* contaminated
 
-I have never grown shiitake, but I do know the mycelium turns brown when ready to fruit, according to [this grocycle article](https://grocycle.com/how-to-grow-shiitake-mushrooms/) and other sources. I'm 98% confident this isn't what's happening here though.
+See the [harvest post]({filename}shiitake-23-oct-2023.md) for this tub. I had no idea shiitake looked so weird. Perhaps there was some kind of competitor in this image, but it never propagated.
+
+### *Preface:*
+
+I later found out that shiitake are not generally grown in monotubs, and they prefer sawdust over Wood Lovr substrate. According to the [North Spore substrate compatibility guide](https://northspore.com/pages/mushroom-substrate-compatibility-guide), monotubs + wood lovr are not even experimental. So we'll see how this goes, fingers crossed, but not expecting much.
+
+I have never grown shiitake, but I do know the mycelium turns brown when ready to fruit, according to [this grocycle article](https://grocycle.com/how-to-grow-shiitake-mushrooms/) and other sources. I'm 98% confident this is~~n't~~ what's happening here ~~though~~.
 
 ### Contaminant: Unknown
 
