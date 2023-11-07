@@ -3,6 +3,32 @@ Date: 2023-08-02 00:08
 Category: Builds
 Status: published
 
+### Update: Nov 7th
+
+After a few months of working with the enclosure on a regular basis, I've discovered many shortcomings, listed below. It's definitely a start in the right direction, but will probably take a good while to refine this into a proper product.
+
+* The ultrasonic humidifier, while a really great concept, doesn't actually humidify the air in the chamber. It fills it with mist, but the mist doesn't evaporate. Instead, it settles and soaks into the substrate, resulting in standing water. Possible solutions include: 
+    - Drain holes
+    - Infrequent use of humidifier
+    - Add soil moisture sensor
+    - PID controller code
+    - Use evaporative / wicking humidifier instead
+* Fresh air exchange conflicts with humidity. Each time the air is cycled by the fans, humidity is lost.
+* A near 100% humidity environment is very hard on the [SCD30 sensor package](https://www.adafruit.com/product/4867), and at $60 each, it's is difficult to justify the short lifespan achieved in these conditions. Perhaps CO2 measurement isn't worth it, and something like the [SHT30](https://www.adafruit.com/product/5064) will have to suffice.
+* Raspberry Pi devices are difficult to get, but are ultimately the best platform with a full Linux OS and ethernet.
+    - Testing with traditional microcontrollers + ESP32 wifi using CircuitPython did not go well due to instability, library limitations, and a lack of memory.
+* For my second enclosure build, the shift register was combined with the fan tachometer circuit on the same board. Unfortunately, the automation is switching different outlets each time, as if the wrong number of bits are being shifted. Electronics are hard.
+
+While recently attending the [Ohio Mushroom Festival](https://www.ohiomushroomfestival.com/), one of the speakers described a revelation that essentially amounts to the difference between "What can the mushroom do for me?" and "What can I do for the mushroom?"
+
+Instead of trying to achieve success by forcing a particular formula of air and humidity, perhaps I should pay more attention to the mushroom itself.
+
+I have done away with sensor-based logic altogether at this point, and instead turn the fan and humidifier on at timed intervals. The fan exchanges the enclosure's air for 60 seconds, followed by 60 seconds of misting. This cycle repeats every 30 minutes. I'm not sure this is enough humidity to induce pinning.
+
+When I have more of this figured out, I'll create a new post detailing a better enclosure build that solves these problems. Until then, have a look below to see how I got to this point.
+
+### /update
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3hF7DTLjd74?si=WqrCpDwXjJIwXo0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 During my [first batch of oysters]({filename}/the-melancholy-death-of-the-golden-oyster-boys.md), I ran into some trouble getting the correct ratio of humidity and air flow. It was pretty frustrating because it seemed like striking the correct balance meant babysitting the enclosure all day. Taking the lid off to get oxygen to the fruit, but then you just let out all the humidity, so you need to mist more. I feel like I should have been doing *something* every 20 minutes or so. When was I going to sleep? As a software developer and failed electrical engineer, I knew it was time for... AUTOMATION! What a great excuse to dive back into electronics. 
@@ -21,7 +47,7 @@ Here are the main components of the enclosure automation system.
 
 ### Switched Outlets Box
 
-If you want to save yourself the trouble, you can [just buy one](https://www.adafruit.com/product/2935). This linked product has a bunch of safety features listed, and I'm sure mine doesn't have any of them unless they are already part of [the relay bank board](https://www.microcenter.com/product/659889/inland-8-channel-5v-relay-module-for-arduino). The only thing I know about the board is that it uses [optical isolators](https://www.adafruit.com/product/4903) to seperate the AC voltages from the control pins. These devices are basically just an IR LED pointed at an IR receiver packaged into a single IC.
+Check out the details of [the full build here]({filename}/relay-switched-outlet-box.md), or if you want to save yourself the trouble, you can [just buy one](https://www.adafruit.com/product/2935) instead. This linked product has a bunch of safety features listed, and I'm sure mine doesn't have any of them unless they are already part of [the relay bank board](https://www.microcenter.com/product/659889/inland-8-channel-5v-relay-module-for-arduino). The only thing I know about the board is that it uses [optical isolators](https://www.adafruit.com/product/4903) to seperate the AC voltages from the control pins. These devices are basically just an IR LED pointed at an IR receiver packaged into a single IC.
 
 Mistakes made, or, potential improvements:
 
