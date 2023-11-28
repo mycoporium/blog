@@ -25,6 +25,8 @@ The growth timeline was as follows:
 - July 20th: Mixed grain spawns with substrates in monotub bins.
 - October 23rd: Harvested (a few days late)
 - [Update] Oct 31st: Spooky second flush, harvested on time!
+- [Update] Nov 10th: Yet another flush, the gift that keeps on giving
+- [Update] Nov 20th: 540 more grams from one tub
 
 Here's tub 1 and tub 2 on August 11th. What on earth are the fuzzy dome looking things? I still don't know. Notice the alien trying to stick its arms out the windows to get fresh air.
 
@@ -47,10 +49,28 @@ But then one day, after forgetting all about them, I noticed shapes in the lids.
 
 By the end of it, the metabolic fluid was just a puddle sitting on top. I was certain the mounds were mushroom cancer or a competing fungus. Somehow, life finds a way.
 
+I eventually used all 770g (78g after drying) for a chicken-mushroom stock. It resulted in the best chicken noodle soup I've ever made.
+
 Update: Oct 31st
 
 A week later, we have another flush! This time, they were harvested at peak ripeness. 255 grams.
 
 ![Shiitake flush 2 tub]({attach}images/shiitake_flush_2_tub.jpg)
 ![Shiitake flush 2 close-up]({attach}images/shiitake_flush_2_closeup.jpg)
+
+Update: Nov 10th
+
+Another flush, 793 grams
+
+![Shiitake flush 3 caps]({attach}images/shiitake_flush_3_caps.jpg)
+![Shiitake flush 3 gills]({attach}images/shiitake_flush_3_gills.jpg)
+
+Update: Nov 20th
+
+540 grams, given to friend to make risotto
+
+![Shiitake flush 4 progress 1]({attach}images/shiitake_flush_4_prog_1.jpg)
+![Shiitake flush 4 progress 2]({attach}images/shiitake_flush_4_prog_2.jpg)
+![Shiitake flush 4 caps]({attach}images/shiitake_flush_4_caps.jpg)
+![Shiitake flush 4 gills]({attach}images/shiitake_flush_4_gills.jpg)
 
